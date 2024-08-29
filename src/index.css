@@ -1,0 +1,93 @@
+/* 
+    todos los colores y fuentes se encuentran en figma
+*/
+
+:root {
+    --background-color: #1E1E1E;
+}
+
+
+
+.character-list {
+    background-color: var(--background-color);
+}
+
+header {
+            
+    background-color:#1E1E20;
+    color: #11B0C8;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 20;
+    z-index: 1000;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    
+    background-color:#1E1E20;
+
+    
+
+
+    
+}
+#characterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.card {
+    border: 1px solid #333333;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+    background-color: #313234;
+
+    
+
+}
+.card img {
+    width: 100%;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+.card h2, .card p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+    color:white;
+}
+.card svg {
+    width: 30px; /* Ajusta el tamaño del SVG al tamaño de la fuente */
+    height: 30px; /* Ajusta el tamaño del SVG al tamaño de la fuente */
+    margin-right: 8px;
+    vertical-align: middle; /* Alinea el SVG verticalmente con el texto */
+}
+.name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.additional-icon {
+    width: 40px; /* Tamaño del icono SVG */
+    height: 40px; /* Tamaño del icono SVG */
+}
